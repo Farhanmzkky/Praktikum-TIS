@@ -234,4 +234,4 @@ db.books.deleteOne({ title: "Buku Baru" })
 
 // DELETE - Hapus banyak buku
 db.books.deleteMany({ author: "Penulis A" })
-.distinct("field")                               // Unique values
+
